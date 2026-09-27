@@ -1,0 +1,13 @@
+name: Bug Report
+description: File a bug report for AI Virtual Mouse
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting an issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
