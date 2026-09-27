@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-virtual-mouse"
+version = "1.0.0"
+description = "Ultra-fast, lightweight, and jitter-free AI virtual mouse for Windows using MediaPipe and OpenCV"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "RMNO21", email = "tondroraman83@gmail.com"}
+]
+dependencies = [
+    "mediapipe>=0.10.0",
+    "opencv-python>=4.8.0",
+    "keyboard>=0.13.5",
+    "numpy>=1.24.0"
+]
