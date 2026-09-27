@@ -1,0 +1,39 @@
+{
+  "start_active": false,
+  "hotkeys": {
+    "toggle": "ctrl+alt+m",
+    "toggle_alternative": "f8",
+    "exit": "ctrl+alt+q"
+  },
+  "camera": {
+    "device_id": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 60
+  },
+  "interaction": {
+    "margin_left": 0.15,
+    "margin_right": 0.15,
+    "margin_top": 0.15,
+    "margin_bottom": 0.20,
+    "speed_multiplier": 1.15,
+    "pinch_threshold": 0.38,
+    "release_threshold": 0.52,
+    "drag_hold_delay": 0.22,
+    "scroll_sensitivity": 30.0
+  },
+  "filter": {
+    "deadzone": 1.8,
+    "min_alpha": 0.09,
+    "max_alpha": 0.88,
+    "precision_range": 30.0,
+    "speed_range": 140.0
+  },
+  "ui": {
+    "sound_effects": true,
+    "show_preview": true,
+    "preview_width": 380,
+    "preview_height": 285,
+    "window_name": "AI Virtual Mouse (Preview)"
+  }
+}

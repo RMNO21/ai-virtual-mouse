@@ -1,0 +1,4 @@
+opencv-python>=4.10.0
+mediapipe==0.10.21
+numpy<2
+keyboard>=0.13.5
